@@ -1,0 +1,121 @@
+
+
+
+/*
+/*
+/*
+
+
+/***************** general styling *****************/
+
+body
+{
+	max-width: 960px;
+	margin: 20px auto;
+	text-align: center;
+	background-image: url("../images/bg.png");
+	font-family: 'Gloria Hallelujah', serif !important;
+}
+
+/***************** header styling *****************/
+header h1
+{
+	text-shadow: 10px 10px black;	
+	margin-bottom: 50px;
+	font-size: 6em;
+	color: red;
+	font-weight: 900;
+}
+
+
+/***************** Buttons styling *****************/
+.btn-lg
+{
+	margin: 5px 10px;
+	border: 2px solid blue;
+	font-weight:900;
+	font-size: 1.5em;	
+	color: red;
+	background-color: rgba(0,0,255,.3);
+	box-shadow: 10px 10px 5px black;
+}
+
+.btn-lg:focus
+{
+	outline: none;
+}
+
+.btn-lg:active
+{
+	transform: scale(.95, .95);
+}
+
+
+/***************** gifs-div styling *****************/
+.thumbnail
+{
+	height: 250px;	
+	background-color: rgba(0,0,255,.2);
+	margin-right: 15px;
+	border:5px solid white;
+	box-shadow: 10px 10px 5px black;
+}
+
+/*Aligns and centers .thumbnails*/	
+#gifs-div
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/*Rating*/
+#gifs-div h4
+{
+	font-size: 1.5em;
+	color: red;
+	font-weight: 900;
+	margin-top: 5px;
+}
+
+/***************** form styling *****************/
+form
+{
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#submit-button
+{
+	background-color: rgba(0,0,255,.3);
+	border: 2px solid blue;
+	vertical-align: top;
+	box-shadow: 10px 10px 5px black;
+}
+
+#input-box
+{
+	background: black;
+	color: red;
+	font-size: 1.2em;
+	height: 36px;
+	border-color:blue;
+	margin-right: 10px;
+	box-shadow: 10px 10px 5px black;
+}
+
+#input-box:focus
+{
+	outline: none;
+
+}
+
+#form-heading
+{	
+	display: inline;
+	margin-right: 10px;
+	text-shadow: 5px 5px black;
+	font-weight: 900;
+}
