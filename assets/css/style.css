@@ -1,13 +1,9 @@
-
-
-
-/*
-/*
-/*
-
+/*		Douglas Aquilino       February 25, 2017 
+			RCB - "GifTastic" Homework #6 			  
+            		style.css                   
+*/
 
 /***************** general styling *****************/
-
 body
 {
 	max-width: 960px;
@@ -28,7 +24,7 @@ header h1
 }
 
 
-/***************** Buttons styling *****************/
+/***************** buttons styling *****************/
 .btn-lg
 {
 	margin: 5px 10px;
@@ -40,22 +36,23 @@ header h1
 	box-shadow: 10px 10px 5px black;
 }
 
+/*removes outline on focus*/
 .btn-lg:focus
 {
 	outline: none;
 }
 
+/*button press effect*/
 .btn-lg:active
 {
 	transform: scale(.95, .95);
 }
 
-
 /***************** gifs-div styling *****************/
 .thumbnail
 {
-	height: 250px;	
-	background-color: rgba(0,0,255,.2);
+	height: 150px;
+	background-color: rgba(0,0,255,.2); 
 	margin-right: 15px;
 	border:5px solid white;
 	box-shadow: 10px 10px 5px black;
@@ -68,7 +65,6 @@ header h1
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
 
 /*Rating*/
 #gifs-div h4
@@ -91,7 +87,7 @@ form
 {
 	background-color: rgba(0,0,255,.3);
 	border: 2px solid blue;
-	vertical-align: top;
+	vertical-align: top;	/*aligns button to top of form*/
 	box-shadow: 10px 10px 5px black;
 }
 
@@ -106,10 +102,10 @@ form
 	box-shadow: 10px 10px 5px black;
 }
 
+/*removes outline on focus*/
 #input-box:focus
 {
 	outline: none;
-
 }
 
 #form-heading
